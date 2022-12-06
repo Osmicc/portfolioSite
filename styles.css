@@ -1,0 +1,81 @@
+.navbar{
+    
+    margin-top: 0%;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar>div{
+    
+    margin-top: 7vh;
+    font-size: 50px;
+    padding: 2px;
+    border-radius: 10px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
+    background-color: black;
+    border-style: solid;
+    
+    color: white;
+
+    opacity: 85%;
+    
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar>div>:hover{
+    background-color: gainsboro;
+    border-radius: 10px;
+    
+}
+
+#Home{
+    background-image: url("images/hero.jfif");
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 20vh;
+    
+}
+a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .grid>article{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    margin-top: 5%;
+    
+    
+  
+  }
+  img{
+    width: 450px;
+    height: auto;
+    padding: 5%;
+    display: inline-block;
+    border-radius: 10%;
+  }
+  .textbox{
+    text-align: center;
+    background-color: #7D98A1;
+    border-radius: 2.5%;
+    width: 450px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+  }
+  h1{
+    text-align: center;
+  }
+  
